@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+
+.pricing-table {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pricing-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-card h2 {
+    color: #8b4513;
+}
+
+.pricing-card .price {
+    font-size: 2em;
+    color: #333;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-card ul li {
+    padding: 0.5em 0;
+}
+
+.pricing-card button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pricing-card button:hover {
+    background-color: #6a3410;
+}
+
+.cart {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cart ul li {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0.5em 0;
+    padding: 1em;
+    text-align: left;
+}
+
+.cart p {
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+#checkout-btn {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#checkout-btn:hover {
+    background-color: #6a3410;
+}
